@@ -234,7 +234,8 @@ block:
       vl_weight: 1
   commands:
     10: 'matrix notify %player% 尝试过快地放置/破坏方块'
-    20: 'matrix kick %player% &c你已被服务器踢出%break%%break%&7原因: &f快速放置/破坏 (#09)%break%&7识别码: &f%id%&7请妥善保管'
+    30: 'matrix notify %player% 尝试过快地放置/破坏方块'
+    50: 'matrix kick %player% &c你已被服务器踢出%break%%break%&7原因: &f快速放置/破坏 (#09)%break%&7识别码: &f%id%&7请妥善保管'
 
 scaffold:
   enable: true
